@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <title>Music Box</title>
+        <link rel="stylesheet" href="musicBox.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+
+        <div class="musicBox">
+            <div id="container"></div>
+        </div>
+            <div class="inputControl">
+                <div class="article" >Music Box</div>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text">
+                          <div>Row</div>
+                      </div>
+                    </div>
+                    <input type="text" class="form-control" aria-label="Text input with checkbox" id="row">
+                </div>
+
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text">
+                          <div>Column</div>
+                      </div>
+                    </div>
+                    <input type="text" class="form-control" aria-label="Text input with checkbox" id="column">
+                </div>
+              
+                <button id="create" type="button" class="btn btn-success">Create</button>
+                
+                <div class="recordControl">
+                    <button id="listenMusic" type="button" class="btn btn-success"><i class="glyphicon glyphicon-music"></i></button>
+                    <button id="record" type="button" class="btn btn-primary"><i class="glyphicon glyphicon-play"></i></button>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+        <div class="row"> 
+        
+    </body>
+    <script src="musicBox.js"></script>
+</html>

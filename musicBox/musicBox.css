@@ -1,0 +1,57 @@
+* {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+    font-weight: bold; 
+}
+
+#container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.musicBox {
+    float:left;
+    width:80%;
+}
+
+.inputControl{
+    float:right;
+    width:20%;
+    margin-top: 80px;
+}
+
+#create{
+    margin-top: 5px;
+    margin-left: 128px;
+}
+
+.article{
+    margin-left: 53px;
+    margin-bottom: 10px;
+}
+
+.dynamicBtn{
+    border-radius: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-indent: -100px;
+}
+
+span {
+    text-indent: 87px;
+}
+
+.recordControl {
+    margin-top: 70px;
+    margin-left: 23px;
+}
+
+#record{
+    width: 80px;
+    margin-left: 90px;
+    margin-top: -60px;
+}
+
+#listenMusic {
+    width: 80px;
+}
